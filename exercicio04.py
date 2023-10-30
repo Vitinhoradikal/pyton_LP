@@ -17,9 +17,5 @@ def primo(numero):
 
 array = list(range(1,101))
 
-primos = 0
-
-n_primos = 0
-
 for i in range(100):
    print(array[i],": ", primo(array[i]))
